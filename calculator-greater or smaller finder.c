@@ -15,10 +15,11 @@ int main() {
         printf ("The greatest number is %d", numF);
     }else if (numL > numF){
         printf ("The greatest number is %d", numL);
-    }else if (numF = numL){
+    }else if (numF == numL){
         printf ("The given both numbers are equal");
     }else {
-        printf ("Invaild");
+        printf ("Invalid");
     }
+    return 0;
 }
 
